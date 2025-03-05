@@ -10,6 +10,18 @@ be easily imported. All data is stored in an object model that is
 tailored to the requirements of information security and is dynamically
 expandable. This makes your data the basis for a sustainable IS process.
 
+## Quickstart
+
+To get started with the app, clone this repo and run
+
+```cmd
+./mvnw -DskipTests clean verify
+```
+
+The build will take ~15 minutes. After that, copy the app from 
+`sernet.verinice.releng.client.product/target/products/<RANDOM_BUILD_STUFF>/verinice`
+to `C:\Program Files\verinice` and create a link own your desktop. Done!
+
 ## Eclipse Rich Client Platform
 
 verinice is a Java application. The graphical surface is implemented
